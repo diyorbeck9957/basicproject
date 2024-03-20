@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 700px;
+    margin-top: 100px;
+    
+}
+
+.leftside {
+    background-color: antiquewhite;
+    width: 700px;
+    height: 600px;
+}
+    
+.leftside h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.email{
+    margin-left: 80px;
+    margin-right: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 80%;
+    height: 50px;
+}
+.email::placeholder{
+   padding-left: 10px;
+}
+.password::placeholder{
+    padding-left: 10px;
+}
+.password{
+    margin-left: 80px;
+    font-size: 18px;
+    width: 80%;
+    height: 50px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+.push{
+margin-left: 250px;
+color: wheat;
+padding: 9px 10px 9px 10px;
+width: 100px;
+background: dodgerblue;
+border-radius: 20px;
+}
+.push:hover{
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+
+.rightside {
+    background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     
+}
+.enter{
+    color: wheat;
+    padding: 9px 10px 9px 10px;
+    width: 150px;
+    background: dodgerblue;
+    border-radius: 20px; 
+}
+.enter:hover{
+    background-color: #3654ff;
+    cursor: pointer;
+    transform: translateX(5px);
+}
